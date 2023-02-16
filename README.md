@@ -1,6 +1,5 @@
 # Enough
-[![Gitlab Stars](https://img.shields.io/gitlab/stars/tingirifistik/enough)]()
-[![Gitlab Forks](https://img.shields.io/gitlab/forks/tingirifistik/enough)]() 
+
 [![Hits](https://hits.sh/gitlab.com/tingirifistik/enough.svg?label=views&extraCount=36250&color=007ec6)](https://hits.sh/gitlab.com/tingirifistik/enough/)
 
 <img src=https://user-images.githubusercontent.com/51286195/212484738-6abd87d1-d819-429f-845f-9afa83ff1cdb.PNG height="200px" width="400px"/>
