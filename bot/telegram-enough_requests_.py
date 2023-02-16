@@ -1,9 +1,9 @@
 import requests
 from time import sleep
-from os import environ
 from sms import SendSms
 
-token = environ.get('TOKEN')
+token = 
+sahip = 
 
 def getUpdate():
     url = 'https://api.telegram.org/bot{}/getUpdates'.format(token)
@@ -31,7 +31,7 @@ while 1:
                 if len(text) != 10 and date not in date_list:
                     date_list.append(date)
                     sendMessage("Lütfen 10 haneli telefon numarası giriniz.", id)
-                elif text == environ.get('SAHIP') and date not in date_list:
+                elif text == sahip and date not in date_list:
                     date_list.append(date)
                     sendMessage("Bu önemli şahsiyeti rahatsız etmek istemiyorum.\nFarklı telefon numarası yazınız!", id)
                 elif len(text) == 10 and date not in date_list:
