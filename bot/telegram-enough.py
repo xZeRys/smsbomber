@@ -2,9 +2,8 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes, MessageHandler, filters
 from sms import SendSms
 from time import sleep
-from os import environ
 
-TOKEN = environ.get('TOKEN')
+TOKEN = 
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(f"Merhaba\!\nBirilerini rahatsız etmek istiyorsan doğru yere geldin\.\n*_/help_* yazarak komutları görebilirsin\.\nİyi eğlenceler\!\n\n[_Kaynak Kodu_](https://gitlab.com/tingirifistik/enough/)\n[_Twitter_](https://twitter.com/_tingirifistik)", parse_mode='MarkdownV2')
